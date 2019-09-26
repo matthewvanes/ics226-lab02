@@ -2,7 +2,7 @@
 
 import socket
 import sys
-from server_functions import *
+#from server_functions import *
 
 def sendFileHeader(current_socket, file_header):
     f = file_header.encode('utf-8')
